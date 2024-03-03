@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <link rel="stylesheet" href="style.css">
+        <title> Humor Calculator </title>  
+        <!-- title tag names the tab thingy -->
+        <script src= "index.js"> </script>  
+        <script src= "DadJokes.js"> </script>
+        <script src= "DarkHumor.js"> </script>
+        <script src="Wholesome.js"> </script>
+        <script src="Literal.js"> </script> 
+    </head>
+    <body>
+        <a href="results.html"> RESULTS</a>
+        <div>
+            <script>
+                var outputElement = document.getElementById("output")
+            </script>
+        </div>
+    
+        <div id ="wrapper">
+            <div class = "box">
+                <h1 style = "text-align: center;"> Humor Calculator! </h1>
+                <div class = "indexP">
+                    <br>
+                    <h3 style = "text-align: center;"> by: Nick Chow, Daniel Nappi, Kearsley Erawan, and Annie Wong </h3>
+                    <br>
+                    <h3 style = "text-align: center;"> 20 memes, 4 topics: Dad Jokes, Dark, Literal, and Wholesome memes. Find your humor! </h3>
+                    <h3 style = "text-align: center;"> Click on the image you think is funniest! </h3>
+                </div>
+            </div> <!--end of .box-->
+
+            <table border = "10">
+                <tr> 
+                    <td>
+                        <button id = "btn1" class = "btn" type = "button" style="height:370px;width:650px"  onclick="dad_RandomNewNumber()"> <!-- Dad -->
+                        <img id="DadRand" src="" height = 370px width = 650px alt = "Image 1">
+                        </button> 
+                    </td>
+                    <td>
+                        <button class = "btn" type = "button" style="height:370px;width:650px" onclick="lit_RandomNewNumber()"> <!-- Lit--> 
+                        <img id="LitRand" src="" height = 370px width = 650px alt = "Image 2">
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class = "btn" type = "button" style="height:370px;width:650px" onclick="dark_RandomNewNumber()"> <!-- Dark Humor-->
+                        <img id = "DarkRand" src = "" height = 370px width = 650px alt = "Image 3">
+                        </button>
+                        </td>
+                
+                    <td>
+                        <button class = "btn" type ="button" style="height:370px;width:650px" onclick = "whole_RandomNewNumber()">
+                            <img id ="WholRand" src = "" height = 370px width = 650px alt = "Image 4">
+                        </button>
+                    </td>
+                </tr>
+                
+            </table>   <!--end of table-->'[]'
+
+            
+        
+        
+        </div> <!-- end of #wrapper-->
+    </body>
+</html>
+
+<!-- <button onclick="myFunction()">Click me</button> 
+    create a button for each image that adds to a variable and changes. -->

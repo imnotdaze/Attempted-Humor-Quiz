@@ -1,0 +1,123 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+#wrapper {
+   margin: auto;
+}
+
+body {
+    background: url('https://masterbundles.com/wp-content/uploads/2023/02/wave-background-23-814.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.statsBox {
+    width: 500px;
+    border: 1px;
+    text-align: center;
+    font-family: 'roboto';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #b0cdf5;
+    height: 90px;
+    padding: 10px;
+    margin: auto;
+}
+
+.catBox {
+    width: 500px;
+    border: 1px;
+    text-align: center;
+    font-family: 'roboto';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #b0cdf5;
+    height: 500px;
+    padding: 10px;
+    margin: auto;
+}
+
+.boxResult {
+    width: 480px;
+    border: 1px;
+    text-align: center;
+    font-family: 'roboto';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #b0cdf5;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+}
+
+ .restartButton {
+    margin: auto;
+    text-align: center;
+    background-color: #b0cdf5;
+ }
+
+.box {
+    width: 1301px;
+    border: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto';
+    background-color: #b0cdf5;
+    height: 140px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+  }
+
+table {
+    width : 14px;
+    border-collapse: collapse;
+    border-width: 10px;
+    border-color: lightblue;
+    border-style: solid;
+    margin: auto;
+    height: 820px;
+    background-color: rgba(0,0,0,0.2)
+}
+
+td {
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    max-height: 370px;
+}
+
+.images {
+    border: #BCD3F2;
+}
+
+.column {
+    float: left;
+    width: 200px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+#btn {
+    cursor: pointer;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    font-size: 1.5em;
+    border-color: transparent;
+    border: none;    
+}
+#btn:hover{
+    background-color: rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+#btn:active{
+    background-color: rgba(0,0,0,0.05);
+}
