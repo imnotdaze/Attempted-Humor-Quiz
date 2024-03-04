@@ -21,12 +21,14 @@ function randomNumber(n) {
 }
 var variableD = [Dad1, Dad2, Dad3, Dad4, Dad5, Dad6, Dad7, Dad8, Dad9, Dad10, Dad11, Dad12, Dad13, Dad14, Dad15];
 num = randomNumber(variableD.length);
+document.getElementById("DadRand").src = variableD[num];
 function dad_RandomNewNumber()
 {   
     variableD.splice(num, 1);
     
     dadJokesScore++;;
-    document.getElementById("DadRand").src = variableD[randomNumber(variableD.length)];
+    num = randomNumber(variableD.length)
+    document.getElementById("DadRand").src = variableD[num];
 
 
     // return variableD[ randomNumber(num)];
